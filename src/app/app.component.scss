@@ -1,0 +1,43 @@
+$background-color:#007869;
+$color:#fff;
+$border-radius:0px;
+$text-align:center;
+input{
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 20px !important;
+    margin-bottom:30px;
+  }
+ 
+  
+.jumbotron{
+    background-color:$background-color;
+    border-radius: $border-radius;
+}
+p,h1{
+    color:$color;
+}
+.main-fa{
+    position: relative;
+    position: relative;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 50px;
+    margin: 0 auto;
+    top: 88px;
+    height: 50px;
+    box-shadow: 0px 1px 2px 2px #ccc;
+}
+a{
+    text-align:$text-align;
+    width: 100%;
+    display: inline-block;
+    color:$background-color;
+    font-size:15px;
+}
+@media screen and (max-width:536px){
+   .main-fa{
+    top: 57px;
+}
+}
